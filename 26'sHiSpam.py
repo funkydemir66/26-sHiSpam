@@ -6,7 +6,7 @@ import threading
 
 
 extension_info = {
-    "title": "W-HandItemSpam",
+    "title": "26'sHiSpam",
     "description": "hic: on&off&cho&pla ",
     "version": "0.2",
     "author": "funkydemir66"
@@ -61,7 +61,6 @@ def konusma(msj):
         msj.is_blocked = True
         sc = False
         ext.send_to_client('{in:Chat}{i:123456789}{s:"Script: off "}{i:0}{i:30}{i:0}{i:0}')
-
 
 def yukle_kod(p):
     global kod, sec_kod
